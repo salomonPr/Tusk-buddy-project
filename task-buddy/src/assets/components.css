@@ -1,0 +1,67 @@
+/* Reusable Button Styles */
+.btn {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 500;
+  transition: background-color 0.2s;
+}
+
+.btn-primary {
+  background-color: #28a745;
+  color: white;
+}
+
+.btn-primary:hover {
+  background-color: #218838;
+}
+
+.btn-danger {
+  background-color: #dc3545;
+  color: white;
+}
+
+.btn-danger:hover {
+  background-color: #c82333;
+}
+
+.btn-dark {
+  background-color: #2d3748;
+  color: white;
+}
+
+.btn-dark:hover {
+  background-color: #1a202c;
+}
+
+.btn-outline {
+  background-color: white;
+  color: #2d3748;
+  border: 2px solid #e5e5e5;
+}
+
+.btn-outline:hover {
+  background-color: #f7fafc;
+  border-color: #cbd5e0;
+}
+
+.btn-lg {
+  padding: 12px 24px;
+  font-size: 16px;
+}
+
+/* Reusable Input Styles */
+.input {
+  padding: 10px;
+  border: 2px solid #e5e5e5;
+  border-radius: 4px;
+  font-size: 16px;
+  background-color: white;
+}
+
+.input:focus {
+  outline: none;
+  border-color: #cbd5e0;
+}
