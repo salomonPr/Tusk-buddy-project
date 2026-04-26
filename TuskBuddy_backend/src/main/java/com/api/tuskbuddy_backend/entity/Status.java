@@ -1,0 +1,9 @@
+package com.api.tuskbuddy_backend.entity;
+
+public enum Status {
+
+    TODO,
+    IN_PROGRESS,
+    DONE;
+
+}

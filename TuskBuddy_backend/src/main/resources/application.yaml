@@ -1,0 +1,18 @@
+spring:
+  application:
+    name: TuskBuddy_backend
+  data:
+    mongodb:
+      uri: mongodb://localhost:27017/task-buddy
+  mvc:
+    throw-exception-if-no-handler-found: true
+  web:
+    resources:
+      add-mappings: false
+
+server:
+  port: 9100
+
+jwt:
+  secret: tuskbuddy-super-secret-key-change-this-in-production-must-be-at-least-256-bits
+  expiration-ms: 86400000
